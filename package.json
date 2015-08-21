@@ -1,0 +1,17 @@
+{
+  "name": "koa-addpushheader",
+  "version": "1.0.0",
+  "description": "KOA Parser middleware for `this.body`. Finds local URLs and adds them to the `Link` HTTP header. HTTP/2 reverse proxies like nghttpx then push these resources to the client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "KOA",
+    "middleware",
+    "push",
+    "http2"
+  ],
+  "author": "Stefan Hamminga <stefan@prjct.net> (https://prjct.net)",
+  "license": "LGPL-3.0"
+}
